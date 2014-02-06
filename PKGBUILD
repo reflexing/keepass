@@ -2,7 +2,7 @@
 # Contributor: Andrej Gelenberg <andrej.gelenberg@udo.edu>
 
 pkgname=keepass
-pkgver=2.24
+pkgver=2.25
 pkgrel=1
 pkgdesc='KeePass Password Safe, the free, open source, light-weight and easy-to-use password manager'
 arch=('any')
@@ -53,7 +53,7 @@ package() {
   install -Dm644 keepass.xml "$pkgdir"/usr/share/mime/packages/keepass.xml
 }
 
-md5sums=('800452a0d9ba78769c63d42fe04fcd74'
+md5sums=('337c5d1c6a63d009b1ec9088a4db7097'
          'daa5d6c01c11cf38c6f5cc207333aa9a'
          'a2a0dff1ebf0aaf6cbfb6f8566f4a010'
          'e910fabacfd7a5f7caa7c1fac0b5254e'
